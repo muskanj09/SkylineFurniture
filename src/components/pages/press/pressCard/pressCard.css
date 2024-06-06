@@ -1,0 +1,52 @@
+.press-section{
+    padding: 120px 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(223, 223, 223);
+    gap: 20px;
+    /* align-items: center; */
+}
+.press-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.press-link{
+    display: inline-block;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+}
+.bg-white{
+    background-color: white;
+    color: black;
+}
+.bg-gray{
+    background-color: rgb(170, 166, 166);
+    color: white;
+}
+.press-link h3{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.press-link p{
+    font-size: 1.3em;
+}
+.bg-white:hover{
+    background-color: rgb(254, 240, 240);
+}
+.bg-gray:hover{
+    background-color: rgb(156, 152, 152);
+}
+
+
+@media (max-width:768px){
+    .press-section{
+        padding: 20px;
+    }
+    .press-link{
+        padding: 40px;
+    }
+}

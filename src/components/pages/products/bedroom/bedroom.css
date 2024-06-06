@@ -1,0 +1,46 @@
+.section-bedroom{
+    padding: 120px 200px;
+    background-color: rgb(181, 181, 181);
+}
+.bedroom-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.bedroom-img{
+    width: 100%;
+    border-radius: 44px;
+}
+.bedroom-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bedroom-btn{
+   padding-top: 40px;
+    text-align: center;
+}
+.bedroom-btn a{
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 44px;
+}
+.bedroom-btn a:hover{
+    background-color: gray;
+}
+
+
+
+@media (max-width:768px){
+    .section-bedroom{
+        padding: 40px;
+    }
+    .bedroom-img{
+        border-radius: 24px;
+    }
+}

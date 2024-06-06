@@ -1,0 +1,34 @@
+.editor-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.edit-img{
+    padding: 100px;
+}
+.edit-text{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.edit-text h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+.edit-text h2{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.edit-text p{
+    padding-right: 50px;
+    font-size: 1.2em;
+}
+
+
+@media (max-width:768px){
+    .editor-img{
+        display: block;
+    }
+}

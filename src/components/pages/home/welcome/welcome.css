@@ -1,0 +1,60 @@
+.section-welcome{
+    padding: 80px;
+    background-color: rgb(249, 240, 230);
+}
+.welcome-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+img{
+    width: 100%;
+}
+.welcome-text{
+    padding: 150px;
+}
+.welcome-text h1{
+    font-size: 4em;
+    position: relative;
+    left: -200px;
+    top: -50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.welcome-text h3{
+    text-transform: uppercase;
+}
+.welcome-text p{
+    padding-block: 30px;
+}
+.welcome-text h4{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px ;
+    text-transform: uppercase;
+}
+.welcome-text div{
+    text-align: right;
+}
+.welcome-text h4 a{
+    text-decoration: none;
+    color: white;
+}
+.welcome-text h4:hover{
+    background-color: gray;
+}
+
+
+@media (max-width:768px){
+    .welcome-grid{
+        display: block;
+    }
+    .welcome-text{
+        padding: 20px;
+    }
+    .welcome-text h1{
+        text-align: center;
+        left: 20px;
+        top: 1px;
+    }
+}

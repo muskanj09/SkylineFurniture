@@ -1,0 +1,37 @@
+.pressSlide-img{
+    background-color: rgb(250, 245, 239);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.press-img{
+    padding: 100px;
+}
+.press-text{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.press-text h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+.press-text h2{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.press-text p{
+    padding-right: 50px;
+    font-size: 1.2em;
+}
+
+
+
+
+@media (max-width:768px){
+    .pressSlide-img{
+        display: block;
+    }
+}

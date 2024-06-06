@@ -1,0 +1,51 @@
+.section-trade{
+    padding: 150px;
+    background-color: rgb(251, 244, 235);
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+.trade-text{
+    padding: 40px 80px;
+}
+.trade-text h2{
+    text-align: right;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.trade-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    padding-inline: 40px;
+}
+.trade-flex h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 2   px;
+}
+.trade-flex h6{
+    font-size: 0.9em;
+}
+
+
+
+@media (max-width:768px){
+    .section-trade{
+        display: block;
+        padding: 40px;
+    }
+    .trade-flex{
+        padding: 0;
+        gap: 25px;
+        justify-content: flex-start;
+    }
+    .trade-text{
+        padding: 20px;
+        height: 60vh;
+    }
+}

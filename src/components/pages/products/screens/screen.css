@@ -1,0 +1,41 @@
+.section-screen{
+    padding: 120px 200px;
+    background-color: rgb(181, 181, 181);
+}
+.screen-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.screen-img{
+    width: 100%;
+    border-radius: 44px;
+}
+.screen-btn{
+   padding-top: 40px;
+    text-align: center;
+}
+.screen-btn a{
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 44px;
+}
+.screen-btn a:hover{
+    background-color: gray;
+}
+
+
+
+@media (max-width:768px){
+    .section-screen{
+        padding: 40px;
+    }
+    .screen-img{
+        border-radius: 24px;
+    }
+}

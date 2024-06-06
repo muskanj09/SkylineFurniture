@@ -1,0 +1,12 @@
+.containerCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media (max-width:768px){
+    .containerCard{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

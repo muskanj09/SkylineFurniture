@@ -1,0 +1,46 @@
+.section-accent{
+    padding: 120px 200px;
+    background-color: rgb(181, 181, 181);
+}
+.accent-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.accent-img{
+    width: 100%;
+    border-radius: 44px;
+}
+.accent-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.accent-btn{
+   padding-top: 40px;
+    text-align: center;
+}
+.accent-btn a{
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 44px;
+}
+.accent-btn a:hover{
+    background-color: gray;
+}
+
+
+
+@media (max-width:768px){
+    .section-accent{
+        padding: 40px;
+    }
+    .accent-img{
+        border-radius: 24px;
+    }
+}

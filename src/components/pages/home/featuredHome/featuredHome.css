@@ -1,0 +1,43 @@
+.section-featured{
+    padding: 50px 300px;
+}
+.section-featured h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-block: 40px;
+}
+.featurebtn{
+    text-align: center;
+    padding-top: 40px;
+}
+.featurebtn h4{
+    background-color: black;
+    display: inline-block;
+    padding: 20px 30px;
+    justify-content: center;
+}
+.featurebtn h4 a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.featurebtn h4:hover{
+    background-color: gray;
+}
+/* 
+
+.imgLink{
+    width: 100%;
+}
+.swip-container img{
+    width: 422px;
+} */
+
+
+
+@media (max-width:768px){
+    .section-featured{
+        padding: 40px;
+    }
+}

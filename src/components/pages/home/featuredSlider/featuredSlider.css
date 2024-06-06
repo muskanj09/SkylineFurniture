@@ -1,0 +1,18 @@
+.imgLink a:hover{
+    color: gray;
+}
+.feature-slide{
+    width: 50%;
+    height: 20vh;
+}
+.imgLink a{
+    width: 50%;
+    height: 20vh;
+}
+.imgLink{
+    width: 40%;
+    height: 40vh;
+}
+.slide-f img{
+    width: 60%;
+}

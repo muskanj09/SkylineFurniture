@@ -1,0 +1,5 @@
+.our-products{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(238, 237, 237);
+}

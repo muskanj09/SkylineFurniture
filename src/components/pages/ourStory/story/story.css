@@ -1,0 +1,47 @@
+.section-story{
+    padding: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(222, 219, 220);
+}
+.story-content{
+    padding-inline: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+}
+.story-content h1{
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.story-content h3{
+    font-size: 2em;
+}
+.story-content p{
+    font-size: 1.2em;
+}
+
+
+@media (max-width:768px){
+    .section-story{
+        display: block;
+        padding: 40px;
+    }
+    .section-story img{
+        width: 70%;
+    }
+    .story-content{
+        padding: 10px;
+    }
+    .story-content p{
+        font-size: 1em;
+    }
+    .story-content h1{
+        font-size: 2em;
+    }
+    .story-content h3{
+        font-size: 1.5em;
+    }
+}

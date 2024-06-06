@@ -1,0 +1,38 @@
+.section-details{
+    padding: 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.details{
+    padding-inline: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.details h2{
+    letter-spacing: 1px;
+}
+.details p{
+    font-size: 1.2em;
+}
+.detail-icon{
+    font-size: 2em;
+}
+.detail-icon:hover{
+    color: gray;
+}
+
+
+@media (max-width:768px){
+    .section-details{
+        padding: 40px 20px; 
+    }
+    .details{
+        padding: 20px;
+    }
+}

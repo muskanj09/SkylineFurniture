@@ -1,0 +1,102 @@
+.section-login{
+    padding: 120px;
+    background-color: rgb(216, 214, 212);
+}
+.login-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.login-card{
+    background-color: white;
+    padding: 50px 100px;
+    margin: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login-card h2{
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.login-card h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.login-card h5 a{
+    color: black;
+    text-decoration: none;
+}
+.login-icon{
+    font-size: 2em;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.login-card h5 a:hover{
+    color: gray;
+}
+.login-form{
+    padding-block: 80px;
+}
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+input[type='email'],
+input[type='password']{
+    width: 50%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    outline: none;
+}
+.labelrem{
+    font-size: 1.2em;
+}
+.label-border{
+    border-top: 1px solid black;
+    padding-top: 2px;
+}
+.login-link{
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+.login-link h6{
+    font-size: 1.2em;
+}
+.login-link h6 a{
+    color: gray;
+}
+.login-link button{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+}
+.login-link button:hover{
+    background-color: gray;
+
+}
+
+
+
+@media (max-width:768px){
+    .section-login{
+        padding: 40px;
+    }
+    .login-grid{
+        display: block;
+    }
+}

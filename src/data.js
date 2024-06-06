@@ -1,0 +1,93 @@
+export const homeCard =[
+    {
+        img:"../src/components/image/card1-logo.png",
+        heading:"Design",
+        desc:"We've become known throughout the industry for our designs, unique shapes, and bold print and patterns. Our wide array of textiles and silhouettes are often designed in-house, pulling from over 75 years of archives and an extensive library of bespoke textiles. "
+    },
+    {
+        img:"../src/components/image/card2-logo.png",
+        heading:"Craftsmanship",
+        desc:"Guided by decades of experience, every piece of our furniture is handmade. With materials sourced from throughout the U.S, our team works hard to ensure top quality and eco-conscious practices at every stage of production and design."
+    },
+    {
+        img:"../src/components/image/card2-logo.png",
+        heading:"Innovation",
+        desc:"Our balance of innovation and tradition has become our hallmark. From pioneering an e-commerce-focused supply chain to digital printing and rendering, our commitment to technology has made us one of the leading furniture manufacturers in the country."
+    }
+
+]
+
+export const partner = [
+    {
+        image:"../src/components/image/partners1.png"
+    },
+    {
+        image:"../src/components/image/partners2.png"
+    },
+    {
+        image:"../src/components/image/partners3.png"
+    },
+    {
+        image:"../src/components/image/partners4.png"
+    },
+    {
+        image:"../src/components/image/partners5.png"
+    },
+    {
+        image:"../src/components/image/partners6.png"
+    },
+    {
+        image:"../src/components/image/partners7.png"
+    },
+    {
+        image:"../src/components/image/partners8.jpg"
+    },
+    {
+        image:"../src/components/image/partners9.jpg"
+    },
+    {
+        image:"../src/components/image/partners10.png"
+    },
+    {
+        image:"../src/components/image/partners11.png"
+    },
+    {
+        image:"../src/components/image/partners12.png"
+    },
+    {
+        image:"../src/components/image/partners13.png"
+    },
+    {
+        image:"../src/components/image/partners14.png"
+    },
+    {
+        image:"../src/components/image/partners15.png"
+    },
+    {
+        image:"../src/components/image/partners16.png"
+    },
+    {
+        image:"../src/components/image/partners17.png"
+    },
+    {
+        image:"../src/components/image/partners18.png"
+    },
+    {
+        image:"../src/components/image/partners19.png"
+    },
+    {
+        image:"../src/components/image/partners20.png"
+    },
+    {
+        image:"../src/components/image/partners21.png"
+    },
+    {
+        image:"../src/components/image/partners22.png"
+    },
+    {
+        image:"../src/components/image/partners23.png"
+    },
+    {
+        image:"../src/components/image/partners24.png"
+    }
+]

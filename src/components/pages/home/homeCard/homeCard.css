@@ -1,0 +1,13 @@
+.home-card{
+    padding: 80px;
+    background-color: rgb(251, 239, 239);
+}
+.card img{
+    width: 30%;
+}
+
+@media (max-width:768px){
+    .home-card{
+        padding: 40px;
+    }
+}

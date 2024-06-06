@@ -1,0 +1,124 @@
+.section-createAccount {
+    padding: 80px 200px;
+}
+
+.account-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+
+.account-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.your-info,
+.company-info,
+.company-address,
+.shipping,
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    /* position: absolute;  */
+}
+
+label {
+    display: block;
+}
+
+.your-info p,
+.company-info p,
+.company-address p,
+.shipping p,
+.feedback p {
+    position: relative;
+    transform: rotate(270deg);
+    left: -280px;
+    top: -150px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.company-address p{
+    top: -80px;
+}
+.shipping p{
+    top: -180px;
+}
+.your-info div,
+.company-info div,
+.company-address div,
+.shipping div,
+.feedback div {
+    border-top: 1px solid black;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.1em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.submit {
+    text-align: right;
+}
+
+.submit button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+.submit button:hover {
+    background-color: gray;
+}
+
+
+@media (max-width:768px) {
+    .section-createAccount {
+        padding: 40px;
+    }
+
+    .account-grid {
+        display: block;
+    }
+
+    .your-info p,
+    .company-info p,
+    .company-address p,
+    .shipping p,
+    .feedback p {
+        left: -350px;
+        /* top: -150px; */
+    }
+    .your-info p{
+        top: -200px;
+    }
+    .shipping p{
+        top: -250px;
+    }
+    .feedback p{
+        top: -200px;
+    }
+    .company-address p{
+        top: -150px;
+    }
+}

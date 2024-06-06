@@ -1,0 +1,24 @@
+.section-generation{
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(255, 248, 248);
+}
+.section-generation div{
+    font-size: 4em;
+}
+.section-generation h1{
+    padding-inline: 250px;
+    font-size: 2em;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+
+@media (max-width:768px){
+    .section-generation{
+        padding: 10px;
+    }
+    .section-generation h1{
+        padding: 20px;
+    }
+}

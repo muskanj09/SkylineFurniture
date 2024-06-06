@@ -1,0 +1,13 @@
+.slider{
+    width: 100%;
+    height: 100vh;
+}
+.swiper-1{
+    width: 50%;
+}
+
+@media (max-width:768px){
+    .slider{
+        width: 100%;
+    }
+}

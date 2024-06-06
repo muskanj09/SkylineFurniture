@@ -1,0 +1,46 @@
+.section-office{
+    padding: 120px 200px;
+    background-color: rgb(181, 181, 181);
+}
+.office-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.office-img{
+    width: 100%;
+    border-radius: 44px;
+}
+.office-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.office-btn{
+   padding-top: 40px;
+    text-align: center;
+}
+.office-btn a{
+    background-color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 44px;
+}
+.office-btn a:hover{
+    background-color: gray;
+}
+
+
+
+@media (max-width:768px){
+    .section-office{
+        padding: 40px;
+    }
+    .office-img{
+        border-radius: 24px;
+    }
+}
